@@ -4474,7 +4474,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.sliderbar.Acts.SetVisible,
 		C3.Plugins.System.Cnds.OnLoadFinished,
 		C3.Plugins.Audio.Acts.Play,
-		C3.Plugins.System.Acts.WaitForPreviousActions,
 		C3.Plugins.System.Cnds.EveryTick,
 		C3.Plugins.sliderbar.Acts.SetInstanceVar,
 		C3.Plugins.sliderbar.Exps.Value,
@@ -4517,7 +4516,6 @@ self.C3_JsPropNameTable = [
 	{titel7: 0},
 	{Sprite: 0},
 	{skin2: 0},
-	{Sprite2: 0},
 	{vol: 0}
 ];
 
@@ -4549,8 +4547,7 @@ self.InstanceType = {
 	titel6: class extends self.ISpriteFontInstance {},
 	titel7: class extends self.ISpriteFontInstance {},
 	Sprite: class extends self.ISpriteInstance {},
-	skin2: class extends self.ISpriteInstance {},
-	Sprite2: class extends self.ISpriteInstance {}
+	skin2: class extends self.ISpriteInstance {}
 }
 }
 
