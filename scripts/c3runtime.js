@@ -4662,9 +4662,9 @@ self.C3_ExpressionFuncs = [
 			return () => n0.ExpInstVar();
 		},
 		() => 1,
-		() => "https://www.daffabot.my.id/tank-daffabot-skin",
+		() => "https://daffabot.github.io/tank-daffabot-skin",
 		() => 3,
-		() => "https://www.daffabot.my.id/tank-daffabot",
+		() => "https://daffabot.github.io/tank-daffabot",
 		() => 2
 ];
 
